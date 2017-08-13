@@ -11,6 +11,7 @@ GPIO.setup(27, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 lv=True;
 cvA=True;
+cvB=True;
 
 while (True):
 	limiter_val = GPIO.input(17)
